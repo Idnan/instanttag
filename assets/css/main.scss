@@ -30,3 +30,31 @@ body {
 .w-130 {
   width: 130px;
 }
+
+
+.coming-soon {
+  position: relative;
+
+  img {
+    filter: opacity(.8) blur(1px);
+  }
+}
+.coming-soon .before {
+  position: absolute;
+  top: -20px;
+  width: 100%;
+  color: #333333;
+  font-size: 12px;
+}
+
+.fas, .fab {
+  color: #333333;
+}
+
+.text-decoration-none:hover {
+  text-decoration: none;
+}
+
+nav {
+  font-size: 14px;
+}
