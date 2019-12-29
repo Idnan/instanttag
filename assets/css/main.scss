@@ -5,7 +5,9 @@
 
 body {
   font-size: 16px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont,
+  'Segoe UI', Roboto, 'Helvetica Neue',
+  Ubuntu, Arial, sans-serif;
   color: #333333;
   font-weight: 400;
   background: #ffffff;
@@ -17,6 +19,7 @@ body {
   border: 10px solid #363636;
   border-radius: 30px;
   overflow: hidden;
+  z-index: 10;
   position:relative;
 
   img {
