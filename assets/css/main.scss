@@ -84,10 +84,12 @@ nav {
   .lead {
     font-size: 19px;
   }
+
   h2 {
     font-weight: 700;
     font-size: 42px;
   }
+
   margin-bottom: 23px;
 }
 
@@ -102,13 +104,18 @@ nav {
   #feature-list {
     max-width: 700px;
 
-    ul > li {
-      background: #363636;
-      color: #fff;
-      padding: 13px;
-      border-radius: 8px;
-      margin-bottom: 10px;
+    ul {
+      margin-left: 0;
+
+      > li {
+        background: #363636;
+        color: #fff;
+        padding: 13px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+      }
     }
+
   }
 }
 
