@@ -10,7 +10,8 @@ body {
   Ubuntu, Arial, sans-serif;
   color: #333333;
   font-weight: 400;
-  background: #ffffff;
+
+  //background: #051622 url("https://slumber.fm/img/bg_star.7ac49a17.png") repeat-y;
 }
 
 .iphone {
@@ -27,42 +28,6 @@ body {
   }
 }
 
-.mt-80 {
-  margin-top: 80px
-}
-
-.mb-17 {
-  margin-bottom: 17px;
-}
-
-.w-130 {
-  width: 130px;
-}
-
-.mt-90 {
-  margin-top: 90px;
-}
-
-.coming-soon {
-  position: relative;
-
-  img {
-    filter: opacity(.8) blur(1px);
-  }
-}
-
-.coming-soon .before {
-  position: absolute;
-  top: -20px;
-  width: 100%;
-  color: #333333;
-  font-size: 12px;
-}
-
-.fas, .fab {
-  color: #333333;
-}
-
 .text-decoration-none:hover {
   text-decoration: none;
 }
@@ -71,34 +36,53 @@ nav {
   font-size: 14px;
 }
 
-.intro {
-  color: #7d7d7d;
-  font-size: 15px;
-}
+#header {
+  padding: 70px 0;
+  border-bottom: 3px solid #333;
 
-.br-10 {
-  border-radius: 10px;
+  #logo {
+    svg {
+      width: 80px;
+      border-radius: 10px;
+    }
+  }
+
+  nav {
+    font-weight: 600;
+  }
+
+  .social-icons {
+    svg {
+      width: 28px;
+      height: 28px;
+    }
+  }
 }
 
 #intro {
+  margin-top: 25px;
+
   .lead {
-    font-size: 19px;
+    font-size: 24px;
+    margin-top: 5px;
+    font-weight: 200;
   }
 
   h2 {
-    font-weight: 700;
-    font-size: 42px;
+    margin-bottom: 0;
+    font-weight: 200;
+    font-size: 7.5em;
+    letter-spacing: 15px;
   }
-
-  margin-bottom: 23px;
 }
 
 #features {
+  margin: 40px 0 50px;
+
   h4 {
-    font-weight: 700;
-    font-size: 39px;
-    margin-bottom: 17px;
-    max-width: 700px;
+    font-weight: 300;
+    font-size: 45px;
+    margin-bottom: 16px;
   }
 
   #feature-list {
@@ -115,10 +99,71 @@ nav {
         margin-bottom: 10px;
       }
     }
-
   }
 }
 
 #app-stores {
-  margin-bottom: 13px;
+  margin: 40px 0;
+
+  img {
+    width: 185px;
+  }
+}
+
+
+//@media all and (max-width: 1200px) { /* screen size until 1200px */
+//  body {
+//    font-size: 1.5em; /* 1.5x default size */
+//  }
+//}
+//@media all and (max-width: 1000px) { /* screen size until 1000px */
+//  body {
+//    font-size: 1.2em; /* 1.2x default size */
+//  }
+//}
+@media all and (max-width: 500px) { /* screen size until 500px */
+  body {
+
+    #header {
+      padding: 50px 0;
+
+      #logo svg {
+        width: 40px;
+      }
+
+      nav {
+        font-size: 12px;
+        font-weight: bold;
+      }
+
+      .social-icons svg {
+        width: 15px;
+        height: 15px;
+      }
+    }
+
+    #intro {
+      margin-top: 25px;
+      text-align: center;
+
+      h2 {
+        margin-bottom: 0;
+        font-weight: 300;
+        font-size: 2.5em;
+        letter-spacing: 4px;
+      }
+
+      .lead {
+        font-size: 17px;
+        margin-top: 5px;
+        font-weight: 300;
+      }
+    }
+
+    #features {
+      h4 {
+        font-weight: 300;
+      }
+    }
+  }
 }
