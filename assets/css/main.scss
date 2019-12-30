@@ -11,7 +11,8 @@ body {
   color: #333333;
   font-weight: 400;
 
-  //background: #051622 url("https://slumber.fm/img/bg_star.7ac49a17.png") repeat-y;
+  background-size: cover;
+  background: url("../img/bg.jpeg") center;
 }
 
 .iphone {
@@ -90,6 +91,7 @@ nav {
 
     ul {
       margin-left: 0;
+      list-style: none;
 
       > li {
         background: #363636;
