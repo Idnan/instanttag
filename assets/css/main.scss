@@ -20,7 +20,7 @@ body {
   border-radius: 30px;
   overflow: hidden;
   z-index: 10;
-  position:relative;
+  position: relative;
 
   img {
     width: 100%;
@@ -28,13 +28,20 @@ body {
 }
 
 .mt-80 {
-  margin-top: 80px;
+  margin-top: 80px
+}
+
+.mb-17 {
+  margin-bottom: 17px;
 }
 
 .w-130 {
   width: 130px;
 }
 
+.mt-90 {
+  margin-top: 90px;
+}
 
 .coming-soon {
   position: relative;
@@ -43,6 +50,7 @@ body {
     filter: opacity(.8) blur(1px);
   }
 }
+
 .coming-soon .before {
   position: absolute;
   top: -20px;
@@ -66,4 +74,44 @@ nav {
 .intro {
   color: #7d7d7d;
   font-size: 15px;
+}
+
+.br-10 {
+  border-radius: 10px;
+}
+
+#intro {
+  .lead {
+    font-size: 19px;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 42px;
+  }
+  margin-bottom: 23px;
+}
+
+#features {
+  h4 {
+    font-weight: 700;
+    font-size: 39px;
+    margin-bottom: 17px;
+    max-width: 700px;
+  }
+
+  #feature-list {
+    max-width: 700px;
+
+    ul > li {
+      background: #363636;
+      color: #fff;
+      padding: 13px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+#app-stores {
+  margin-bottom: 13px;
 }
