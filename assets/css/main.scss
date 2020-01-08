@@ -142,6 +142,9 @@ nav {
 
 @media all and (max-width: 1000px) { /* screen size until 1000px */
   body {
+    background-position: unset !important;
+    background-repeat: round !important;
+
     #intro {
       h2 {
         margin-bottom: 0;
@@ -152,8 +155,10 @@ nav {
     }
   }
 }
-@media all and (max-width: 500px) { /* screen size until 500px */
+@media all and (max-width: 620px) { /* screen size until 500px */
   body {
+    background-position: unset !important;
+    background-repeat: round !important;
 
     #header {
       padding: 50px 0;
